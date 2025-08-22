@@ -59,7 +59,7 @@ const subjects = {
       "7": ["Satellite Communications", "Wireless Communications & Neworks", "Cellular and Mobile Communications", "Digital Image Processing"],
       "8": ["Feature Engineering in Machine Learning"]
     }
-  }
+  },
   EEE: {
     "1": {
       "1": ["Engineering Drawing", "Problem Solving through C Programming", "Applied Physics", "Algebra and Calculus", "Basic Electrical Engineering"],
@@ -239,4 +239,5 @@ export const DepartmentSelector = ({
       )}
     </div>
   );
+
 };
