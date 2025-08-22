@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Annamacharya University Study Portal Design System */
+
+@layer base {
+  :root {
+    /* Core Academic Theme */
+    --background: 240 20% 99%;
+    --foreground: 224 15% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 224 15% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 15% 15%;
+
+    /* University Blue Primary */
+    --primary: 220 91% 42%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 220 91% 35%;
+
+    /* Academic Orange Secondary */
+    --secondary: 32 95% 44%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* Subtle Grays */
+    --muted: 240 20% 96%;
+    --muted-foreground: 224 15% 55%;
+
+    /* Success Green */
+    --accent: 142 76% 36%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Error States */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders & Inputs */
+    --border: 240 20% 88%;
+    --input: 240 20% 94%;
+    --ring: 220 91% 42%;
+
+    /* University Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)), hsl(220 85% 55%));
+    --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(240 20% 97%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(240 20% 98%));
+
+    /* Academic Shadows */
+    --shadow-elegant: 0 8px 32px -8px hsl(220 91% 42% / 0.15);
+    --shadow-card: 0 4px 16px -4px hsl(220 30% 30% / 0.1);
+    --shadow-glow: 0 0 20px hsl(220 91% 42% / 0.2);
+
+    /* Smooth Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark Academic Theme */
+    --background: 224 15% 8%;
+    --foreground: 240 20% 95%;
+
+    --card: 224 15% 10%;
+    --card-foreground: 240 20% 95%;
+
+    --popover: 224 15% 10%;
+    --popover-foreground: 240 20% 95%;
+
+    /* Dark Mode Primary */
+    --primary: 220 91% 55%;
+    --primary-foreground: 224 15% 8%;
+    --primary-hover: 220 91% 48%;
+
+    /* Dark Orange Secondary */
+    --secondary: 32 85% 55%;
+    --secondary-foreground: 224 15% 8%;
+
+    /* Dark Grays */
+    --muted: 224 15% 15%;
+    --muted-foreground: 224 10% 65%;
+
+    /* Dark Success */
+    --accent: 142 76% 45%;
+    --accent-foreground: 224 15% 8%;
+
+    /* Dark Error */
+    --destructive: 0 84% 65%;
+    --destructive-foreground: 224 15% 8%;
+
+    /* Dark Borders */
+    --border: 224 15% 20%;
+    --input: 224 15% 18%;
+    --ring: 220 91% 55%;
+
+    /* Dark Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)), hsl(220 85% 45%));
+    --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(224 15% 12%));
+    --gradient-card: linear-gradient(145deg, hsl(224 15% 10%), hsl(224 15% 8%));
+
+    /* Dark Shadows */
+    --shadow-elegant: 0 8px 32px -8px hsl(220 91% 55% / 0.25);
+    --shadow-card: 0 4px 16px -4px hsl(0 0% 0% / 0.3);
+    --shadow-glow: 0 0 20px hsl(220 91% 55% / 0.3);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
