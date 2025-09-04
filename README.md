@@ -8,3 +8,9 @@ A comprehensive web-based study materials platform for Annamacharya University, 
 - AI-integrated features for enhanced learning support
 - User-friendly interface with institutional branding
 - Scalable architecture to support multiple departments and growing content
+
+## Live Demo
+https://study-material-website-awsh.vercel.app/
+
+## PROJECT STATUS
+This project is under development .
